@@ -62,4 +62,4 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", indexRouter);
 
-server.listen(https://videoconferencingbacked-app.onrender.com);
+server.listen(process.env.PORT || 3000);
